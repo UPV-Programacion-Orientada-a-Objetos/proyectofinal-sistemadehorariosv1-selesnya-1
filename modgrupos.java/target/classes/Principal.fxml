@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="469.0" prefWidth="771.0" style="-fx-background-color: gainsboro;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.modgrupos.MainPrincipal">
+   <children>
+      <Pane prefHeight="71.0" prefWidth="653.0" style="-fx-background-color: midnightblue;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="105.0" layoutX="652.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@upvlogo.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <ListView fx:id="listagrupos" layoutX="26.0" layoutY="129.0" prefHeight="319.0" prefWidth="548.0" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="197.0" AnchorPane.topAnchor="129.0" />
+      <Text layoutX="128.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grupos disponibles" AnchorPane.bottomAnchor="351.25" AnchorPane.leftAnchor="128.0" AnchorPane.topAnchor="78.75">
+         <font>
+            <Font name="KacstOne Bold" size="32.0" />
+         </font></Text>
+      <Button layoutX="589.0" layoutY="205.0" mnemonicParsing="false" onAction="#addgrupo" text="Añadir grupo" />
+      <Button layoutX="590.0" layoutY="377.0" mnemonicParsing="false" onAction="#editgrupo" text="Editar grupo" />
+      <Button layoutX="589.0" layoutY="415.0" mnemonicParsing="false" onAction="#delgrupo" text="Borrar grupo" />
+      <Label layoutX="588.0" layoutY="140.0" text="Inserte un nombre:" />
+      <TextField fx:id="txtName" layoutX="588.0" layoutY="165.0" />
+      <Button layoutX="588.0" layoutY="336.0" mnemonicParsing="false" onAction="#visgrupo" text="Visualizar grupo" />
+   </children>
+</AnchorPane>

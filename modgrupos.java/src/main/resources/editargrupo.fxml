@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gainsboro;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.modgrupos.Editargrupo">
+   <children>
+      <TableView layoutX="14.0" layoutY="32.0" prefHeight="295.0" prefWidth="571.0">
+        <columns>
+          <TableColumn prefWidth="109.0" text="Materia" />
+          <TableColumn prefWidth="461.0" text="Profesor(a)" />
+        </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="351.0" mnemonicParsing="false" text="Nueva materia" />
+      <Button layoutX="141.0" layoutY="351.0" mnemonicParsing="false" text="Borrar materia" />
+      <Button layoutX="269.0" layoutY="351.0" mnemonicParsing="false" text="Editar" />
+      <Button layoutX="513.0" layoutY="351.0" mnemonicParsing="false" text="Guardar" />
+   </children>
+</AnchorPane>
